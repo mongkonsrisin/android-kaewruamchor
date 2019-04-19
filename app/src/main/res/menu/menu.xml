@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ssru"
+        android:title="โปรไฟล์"/>
+    <item
+        android:id="@+id/map"
+        android:icon="@drawable/map"
+        android:title="แผนที่"/>
+    <item
+        android:id="@+id/friend"
+        android:icon="@drawable/ic_assignment_ind_black_24dp"
+        android:title="เพื่อนร่วมรุ่น"/>
+
+
+
+</menu>

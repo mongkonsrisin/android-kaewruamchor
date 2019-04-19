@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="th.ac.ssru.kaewruamchor.MarkerActivity">
+
+    <fragment
+        android:id="@+id/map"
+        android:name="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:paddingStart="8dp"
+        android:paddingEnd="8dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+    <EditText
+        android:id="@+id/etSearch"
+        android:layout_width="0dp"
+        android:layout_height="32dp"
+        android:layout_weight="0.8"
+        android:background="#ffffff"
+        android:hint="ค้นหาสถานที่" />
+        <Button
+            android:id="@+id/btnSearch"
+            android:layout_width="0dp"
+            android:layout_height="32dp"
+            android:background="@color/colorPrimary"
+            android:text="ค้นหา"
+            android:textColor="#ffffff"
+            android:layout_weight="0.2"/>
+    </LinearLayout>
+
+
+
+
+            <Button
+                android:id="@+id/btnSave"
+               android:background="@drawable/submit"
+                android:textSize="20dp"
+                android:layout_centerInParent="true"
+                android:layout_alignParentBottom="true"
+                android:layout_width="100dp"
+                android:textColor="#ffffff"
+                android:layout_height="50dp"
+                android:layout_marginBottom="10dp"
+                android:text="บันทึก" />
+
+
+
+
+
+</RelativeLayout>
